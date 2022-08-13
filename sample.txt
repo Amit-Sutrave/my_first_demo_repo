@@ -1,0 +1,35 @@
+this file is added from local repo to GitHub 
+
+step By step Procedure for doing this 
+
+1. create file in local repo
+
+2. check status using commnad --> (git status) - you see this file name in red color it means this file is not added to master branch 
+
+3. add this file in master branch using command --> (git add .) -for adding all files at a time  =OR=  git add <File_Name> 
+
+4.then check git status using command --> (git status) now you can see this file name in green colors 
+
+5.commit using command --> git commit -m "<Description>"
+
+==IMP-->Without commit you can not push file 
+
+6. git remote add origin <repo link>
+
+7. git push -u origin master 
+
+		username=Amit-Sutrave
+		password=<link>  <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>
+
+
+	link==which you can create by using following steps 
+
+	
+		1) go to profile-setting 
+		2) go developer setting
+		3) personal access tokens 
+		4) create token (which is your link)
+	
+
+
+			==Done==
